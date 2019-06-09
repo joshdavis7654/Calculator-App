@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		033082C920FD825E00D10EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033082C820FD825E00D10EB3 /* AppDelegate.swift */; };
-		033082CB20FD825E00D10EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033082CA20FD825E00D10EB3 /* ViewController.swift */; };
 		033082CE20FD825E00D10EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033082CC20FD825E00D10EB3 /* Main.storyboard */; };
 		033082D120FD825E00D10EB3 /* butPress.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 033082CF20FD825E00D10EB3 /* butPress.xcdatamodeld */; };
 		033082D320FD825F00D10EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033082D220FD825F00D10EB3 /* Assets.xcassets */; };
 		033082D620FD825F00D10EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033082D420FD825F00D10EB3 /* LaunchScreen.storyboard */; };
 		033082E120FD825F00D10EB3 /* butPressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033082E020FD825F00D10EB3 /* butPressTests.swift */; };
 		033082EC20FD825F00D10EB3 /* butPressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033082EB20FD825F00D10EB3 /* butPressUITests.swift */; };
+		033082FA20FD82C100D10EB3 /* testV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033082F920FD82C100D10EB3 /* testV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		033082C520FD825D00D10EB3 /* butPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = butPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		033082C820FD825E00D10EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		033082CA20FD825E00D10EB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		033082CD20FD825E00D10EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		033082D020FD825E00D10EB3 /* butPress.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = butPress.xcdatamodel; sourceTree = "<group>"; };
 		033082D220FD825F00D10EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		033082E720FD825F00D10EB3 /* butPressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = butPressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033082EB20FD825F00D10EB3 /* butPressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butPressUITests.swift; sourceTree = "<group>"; };
 		033082ED20FD825F00D10EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033082F920FD82C100D10EB3 /* testV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		033082C720FD825D00D10EB3 /* butPress */ = {
 			isa = PBXGroup;
 			children = (
+				033082F920FD82C100D10EB3 /* testV.swift */,
 				033082C820FD825E00D10EB3 /* AppDelegate.swift */,
-				033082CA20FD825E00D10EB3 /* ViewController.swift */,
 				033082CC20FD825E00D10EB3 /* Main.storyboard */,
 				033082D220FD825F00D10EB3 /* Assets.xcassets */,
 				033082D420FD825F00D10EB3 /* LaunchScreen.storyboard */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033082FA20FD82C100D10EB3 /* testV.swift in Sources */,
 				033082D120FD825E00D10EB3 /* butPress.xcdatamodeld in Sources */,
-				033082CB20FD825E00D10EB3 /* ViewController.swift in Sources */,
 				033082C920FD825E00D10EB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
