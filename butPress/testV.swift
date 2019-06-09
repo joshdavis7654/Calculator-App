@@ -258,7 +258,7 @@ class testV: UIViewController {
             place = place + "."
         }
     }
-    
+    //function that handles the percent button
     @IBAction func percent(_ sender: UIButton) {
         if(place != ""){
             if(stor.count != 0){
